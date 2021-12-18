@@ -10,6 +10,5 @@ public abstract class AdventOfCode {
     AdventOfCode() {
         input = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
     }
-
     abstract void solve();
 }
